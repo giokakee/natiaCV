@@ -1,0 +1,70 @@
+body {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+}
+#main {
+  display: flex;
+  background-color: white;
+  height: auto;
+  max-width: 900px;
+  min-width: 600px;
+}
+
+#left {
+  float: left;
+  background-color: rgb(255, 166, 77);
+  width: auto;
+  height: 100%;
+  color: rgb(250, 248, 245);
+}
+#left ul {
+  margin-left: 20%;
+}
+.leftList {
+}
+#right {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin-left: 5%;
+}
+.rightFullHeader,
+.rightSecHeader {
+  text-align: center;
+  color: rgb(255, 166, 77);
+  font-family: "Oswald", sans-serif;
+}
+#first,
+#second {
+  text-align: center;
+}
+#img {
+  width: 100%;
+}
+#right {
+  float: right;
+}
+
+.header {
+  font-size: 20px;
+  color: white;
+}
+.body {
+  font-size: 13px;
+}
+.leftHeader {
+  font-size: 20px;
+}
+.rightBody {
+  font-size: 13px;
+}
+.rightHeader {
+  color: rgb(255, 166, 77);
+}
+
+#rightLi li {
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
